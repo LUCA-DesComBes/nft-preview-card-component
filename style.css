@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Outfit", sans-serif;
+}
+body {
+	margin: 62px 24px;
+	background-color: #0d192c;
+}
+article {
+    width: 100%;
+    border-radius: 15px;
+	background-color: #15263F;
+	padding: 24px 25px 24px 24px;
+}
+#first-sect {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    color: #fff;
+	font-weight: 600;
+	font-size: 22px;
+	margin: 24px 0 12px 0;
+}
+#first-para {
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 16px;
+    color: #8BACD9;
+}
+#f-r {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.sec-div {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+#number {
+    font-weight: 600;
+    font-size: 15px;
+    color: #00FFF8;
+}
+#days {
+    color: #8BACD9;
+    font-weight: 400;
+    font-size: 15px;
+}
+hr {
+    background-color: #2E405A;
+    height: 1px;
+    border: none;
+    margin-bottom: 16px;
+}
+#profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    gap: 6px;
+}
+span {
+    color: #8BACD9;
+}
+#eye {
+    position: absolute;
+    top: 152px;
+    z-index: 2;
+}
+#aqua {
+    position: absolute;
+    border-radius: 8px;
+    top: 25px;
+    right: 26px;
+    z-index: 1;
+    height: 302px;
+    width: 302px;
+    background-color: #00FFF8;
+    opacity: 50%;
+}
+@media screen and (min-width: 415px) {
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+    }
+    h1:hover {
+        cursor: pointer;
+        color: #00FFF8;
+    }
+    article {
+        position: relative;
+        width: 22%;
+    }
+    #profile {
+        gap: 16px;
+    }
+    #profile:hover {
+        cursor: pointer;
+        color: #00FFF8;
+    }
+    #cube {
+        cursor: pointer;
+        height: 302px;
+        width: 302px;
+    }
+}
